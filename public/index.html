@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>WPNServices</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link href="../public/assets/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo:wght@700&amp;family=Libre+Baskerville&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=News+Cycle:wght@700&family=Quicksand:wght@500&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--ALL LINKS INSIDE FOR THE WEBSITE-->
+    <meta charset="utf-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!--stlying for navs in general-->
+    <style>
+      a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        text-transform: none;
+        font-size: 18px;
+        font-weight: 525;
+      }
+
+      a:link {
+        color: whitesmoke;
+        text-decoration: none;
+      }
+
+      a:visited {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: rgb(245, 245, 245);
+        text-decoration: none;
+      }
+
+      a:active {
+        color: rgb(245, 245, 245);
+        text-decoration: none;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <%- include('templates/header.ejs') -%>
+    </header>
+
+    <main id="main">
+      <!--The company missson, objective introduction for those coming to site-->
+      <div class="GreenBackground" id="town">
+        <br /><br /><br />
+        <section class="company-intro">
+          <h2 class="who-we-are" id="">
+            Worcester Physicians and Nurses Services
+          </h2>
+          <article>
+            <br />
+            <p class="subHeading">
+              A Medical Group of U.S board Certified Physicians and Nurse
+              Practitioners<br />
+              focused on Providing adult Primary and Geriatrics Services .
+              <br />
+              Healthcare on your terms. Do not skip Work or School. Save time
+              and Money.<br />
+              Connect with us while on vacation. Schedule a virtual appointment.
+            </p>
+          </article>
+        </section>
+        <!--The company missson, objective introduction for those coming to site-->
+      </div>
+      <br /><br />
+
+      <!--BIG CONTAINER-->
+      <div class="container d-flex flex-wrap body-wrapper">
+        <!--BIG CONTAINER-->
+
+        <!--CONTENT FULL WIDTH THING I'M PRETTY SURE I NEED BUT I HAVE TO LOOK UP AGAIN-->
+        <div id="content" class="col content content-fullwidth">
+          <!--CONTENT FULL WIDTH THING I'M PRETTY SURE I NEED BUT I HAVE TO LOOK UP AGAIN-->
+
+          <div class="container-fluid">
+            <!--Featured services offered by WPNS HEADING-->
+            <div
+              class="d-flex justify-content-center align-items-center text-center featured-top"
+              style="height: 100px;"
+            >
+              <article class="center">
+                <h2>Featured Services</h2>
+                <p>
+                  WPNServices serves to offer a variety of services to all
+                  patients who wish to subscribe to the pracitce. <br />This
+                  ranges from the following services:
+                </p>
+              </article>
+            </div>
+            <!-- END OF Featured services offered by WPNS HEADING-->
+          </div>
+          <br />
+
+          <div class="container-fluid Featured">
+            <div class="row text-center">
+              <!--POCKET1-->
+              <div class="col-sm-4">
+                <a href="" class="card border pocket mb-3" id="a">
+                  <img
+                    src="../public/assets/rehabilitation.jpg"
+                    alt=""
+                    class="img-fluid p-0"
+                  />
+                  <div class="card-body padding-adj">
+                    <h5 class="hope">
+                      Rehabilitation <br> 
+                      Long-term Care Practice
+                      
+                    </h5>
+                    <p>
+                      We provide Physican and Nurse Practioner coverage too skilled Nursing, Facilities and Nursing homes
+                    </p>
+                  </div>
+                </a>
+              </div>
+
+              <!--POCKET2-->
+              <div class="col-sm-4">
+                <a href="" class="card border pocket mb-3" id="b">
+                  <img
+                    src="https://www.uhc.com/content/dam/uhcdotcom/en/Search/vv_elevated.jpg/_jcr_content/renditions/cq5dam.web.940.940.jpeg"
+                    alt=""
+                    class="img-fluid p-0"
+                  />
+                  <div class="card-body">
+                    <h5 class="hope">Virtual <br />In-Office Visits</h5>
+                    <p>
+                      Make an appointment today. Telemedicine and In-office viists are available upon request. 
+                    </p>
+                    <br>
+                    <br>
+                  </div>
+                </a>
+              </div>
+
+              <!--POCKET3-->
+              <div class="col-sm-4">
+                <a href="" class="card border pocket mb-3" id="c">
+                  <img
+                    src="../public/assets/XXV6DBWSMVEI3BJSWWELYUSSCM.jpg"
+                    alt=""
+                    class="img-fluid p-0"
+                  />
+                  <div class="card-body">
+                    <h5 class="hope">Assisated Living facility Coverage</h5>
+                    <p>
+                      Our providers make house calls to provide primary care to assited living residents
+                    </p>
+                    <br>
+                    
+                  </div>
+                </a>
+              </div>
+
+              <!--END OF POCKETS-->
+            </div>
+          </div>
+
+          <!-- End of Featured services offered by WPNS-->
+
+          <br /><br /><br />
+
+          <!--Section that displays the PROVIDERS of the buisness-->
+
+          <!--PROVIDERS CONTAINER-->
+          <div class="container-fluid">
+            <!--PROVIDERS CONTAINER-->
+            <a class="card border mb-3 pocket" style="padding: 50px;">
+              <div class="container-fluid provider-heading">
+                <!--pROVIDER HEADING-->
+                <div class="d-flex justify-content-center align-items-center text-center"
+                  style="height: 100px;">
+
+                  <div class="row media1">
+                    <div class="col-md-12 media2">
+                      <h2 id="fix">Providers</h2>
+                      <p>Schedule an appoointment with any of our providers. Each responsible for giving and</p>
+                      <p>Together the staff of Worcester Physicans and Nursing Services<br> Form a dedicated and  effective partnership </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- END pROVIDER HEADING-->
+              </div>
+
+
+              <br />
+              <!--START OF POCKETS-->
+              <div class="container-fluid indivduals">
+                <div class="row text-center">
+                  <!--POCKET 1-->
+                  <div class="col-sm-4 media3">
+                    <h3>Physicans</h3>
+                    <br />
+                    <figure>
+                      <img
+                        src="../public/assets/20181119-121944.JPG"
+                        class="imgPro img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                        alt=""
+                      />
+                      <br />
+                      <figcaption class="">
+                        Dr.Chidimma Okoli MD:<br />Ceo/Owner of WPNS
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <!--POCKET 2-->
+                  <div class="col-sm-4 providers text-center">
+                    <h3>Nurse Practioners</h3>
+                    <br />
+                    <figure>
+                      <img
+                        src="../public/assets/IMG-4358.JPG"
+                        class="img-duo img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+                      />
+                      <br />
+                      <figcaption class="">Julie Tucker,<br />FMNP</figcaption>
+                      </figure>
+                    <br />
+                    <figure>
+                      <img src="../public/assets/image0.jpeg" class="img-duo img-new2 img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" />
+                      <br />
+                      <figcaption class="img-new2">
+                        Carissa Kelly, N.P.
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <!--POCKET 3-->
+                  <div class="col-sm-4 providers">
+                    <h3>Office Manager</h3>
+                    <br />
+                    <figure>
+                      <img
+                        src="../public/assets/LYNN.JPG"
+                        class="img-duo img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
+                      <br />
+                      <figcaption class="">
+                        LYNN Gervais:<br />Medical assistent / Office
+                        Coordinator
+                      </figcaption>
+                    </figure>
+                    <figure>
+                      <img src="../public/assets/MOLLY (1).jpeg" 
+                      class="img-duo img-fluid 
+                      ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
+                      <br>
+                      <figcaption>
+                        MOllY
+                      </figcaption>
+                    </figure>
+                  </div>
+
+                  <div class="col-sm-4 img-new  providers">
+                      <h3>Registred Nurse</h3>
+                      <br>
+                      <figure>
+                        <img src="../public/assets/IMG-0101.jpg" class="img-duo img-fluid  ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"/>
+                        <br>
+                        <figcaption>
+                          Louise Nyepon-Earley, .<br />R.N
+                        </figcaption>
+                      </figure>
+                  </div>
+                </div>
+              </div>
+
+              <!-- END!!section that displays the providers of the buisness-->
+
+            </a>
+          </div>
+          <!--DIV FOR PROVIDERS CONTAINER-->
+        </div>
+        <!--DIV FOR "CONTENT FULL WIDTH" THING I'M PRETTY SURE I NEED BUT I HAVE TO LOOK UP AGAIN-->
+      </div>
+      <!--MAIN BIG CONTAINER-->
+    </main>
+
+    <footer>
+      <!--Container part of the Footer-->
+      <div class="container-fluid padding">
+        <div class="row text-center">
+          <!-- LOGO PART WITH INFO,Number, email, location-->
+          <div class="col-md-4">
+            <img src="../public/assets/LogoMakr_5iAESO.png" class="img-fluid" />
+            <hr class="light" />
+            <p>508-556-1072</p>
+            <p>email@myemail.com</p>
+            <p>111-Elm St</p>
+            <p>Worcester, Massachuttests, 01609</p>
+          </div>
+          <!--Navigation part of the Footer-->
+
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Explore WPNS</h5>
+            <hr class="light" />
+            <p><a href="Virtual">Virtual Visits</a></p>
+            <p><a href="In-Office">In-Office Visits</a></p>
+            <p><a href="About">About Us</a></p>
+            <p><a href="contact">Contact</a></p>
+            <p><a href="index">Home</a></p>
+          </div>
+
+          <div class="col-md-4">
+            <hr class="light" />
+            <h5>Patient Resources</h5>
+            <hr class="light" />
+            <p><a href="">Request Medical Records</a></p>
+            <p><a href="">In-Office Visits</a></p>
+            <p><a href="">About Us</a></p>
+          </div>
+          <div class="col-12">
+            <hr class="light" />
+            <h6>&copy; 2020 WPNServices</h6>
+            <span
+              ><a class="footer-anchor-style" href=""
+                >Terms &amp; Conditions</a
+              ></span
+            >
+            <br />
+            <span
+              ><a class="footer-anchor-style-2" href="">Privacy Policy</a></span
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../public/assets/main.js"></script>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+
+
+
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    </script>
+    <script>
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    </script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/8.7.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/8.7.1/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+
+  </body>
+</html>
+
